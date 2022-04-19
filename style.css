@@ -103,7 +103,6 @@ section {
 }
 body {
   line-height: 1;
-  overflow: hidden;
 }
 ol,
 ul {
@@ -123,6 +122,14 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 
 /* -------------------------------------- */
