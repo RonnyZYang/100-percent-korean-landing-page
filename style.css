@@ -183,6 +183,10 @@ a:active {
 
 /* Main Page */
 
+html {
+    scroll-behavior: smooth;
+}
+
 .backsplash {
   background-image: url(./assets/Backsplash.jpg);
   height: 100vh;
@@ -321,7 +325,7 @@ a:active {
   color: white
 }
 
-.main-menu-title {
+#main-menu-title {
   grid-area: 1/1/2/-1;
   font-size: 5rem;
   font-family: "osake";
