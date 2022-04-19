@@ -262,6 +262,7 @@ html {
   height: 50vh;
   margin: 40px 50px;
   font-weight: 200;
+  row-gap: min(20px);
 }
 
 .info-contaner {
@@ -312,6 +313,8 @@ html {
   align-items: center;
   text-align: center;
 }
+
+/* Menu */
 
 .menu {
   background-image: url(./assets/Backsplash\ 2.jpg);
